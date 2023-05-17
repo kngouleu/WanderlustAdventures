@@ -1,0 +1,30 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    --header-height: 3.5rem;
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --first-color: hsl(0, 0%, 100%);
+    --hover-color: hsl(0, 0%, 66.3%);
+    --text-color: hsl(0, 0%, 50%);
+    --black-color: hsl(0, 0%, 0%);
+    --bg-second-color: hsl(0, 5%, 8%);
+    --bg-item: hsl(0, 0%, 82.7%);
+    --icon-color-hover: hsl(0, 0%, 87%);
+    --button-color: hsl(0, 0%, 20%);
+  
+    --bg-image: linear-gradient(hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0.5)), url(../img/wanderlust-bg.jpg);
+    /*========== Font and typography ==========*/
+    /*1rem = 16px ...*/
+    --body-font: "Montserrat", sans-serif;
+    --bigger-font-size: 2.25rem;
+    --big-font-size: 1.5rem;
+    --h1-font-size: 1.4rem;
+    --medium-font-size: 1rem;
+    --small-font-size: 0.8rem;
+  
+    /*========== Font weight ==========*/
+    --font-semi-bold: 600;
+}
