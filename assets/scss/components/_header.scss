@@ -1,0 +1,21 @@
+.menu{
+    display: flex;
+    justify-content: flex-end;
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 1rem;
+
+    
+        &-item{
+            padding-left: 1rem;
+            padding-right: 1rem;
+            a:hover{
+                color: var(--hover-color);
+                transition: all ease-in-out 0.2s;
+            }
+        }
+    }
+    
+}
